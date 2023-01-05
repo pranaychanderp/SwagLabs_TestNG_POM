@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SwagLabs_Tests.SwagLabs_LoginTest">
+      <class name="SwagLabs_Tests.SwagLabs_PlacingOrder">
         <methods>
-          <include name="Setup"/>
-          <include name="Login"/>
-          <include name="Teardown"/>
+          <include name="Order"/>
         </methods>
-      </class> <!-- SwagLabs_Tests.SwagLabs_LoginTest -->
+      </class> <!-- SwagLabs_Tests.SwagLabs_PlacingOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

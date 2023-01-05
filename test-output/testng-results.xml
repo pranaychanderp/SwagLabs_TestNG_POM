@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-03T16:35:32 IST" name="Default suite" finished-at="2023-01-03T16:35:43 IST" duration-ms="11095">
+  <suite started-at="2023-01-05T16:30:37 IST" name="Default suite" finished-at="2023-01-05T16:30:50 IST" duration-ms="12280">
     <groups>
     </groups>
-    <test started-at="2023-01-03T16:35:32 IST" name="Default test" finished-at="2023-01-03T16:35:43 IST" duration-ms="11095">
-      <class name="SwagLabs_Tests.SwagLabs_LoginTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:SwagLabs_Tests.SwagLabs_LoginTest@1d2adfbe]" started-at="2023-01-03T16:35:32 IST" name="Setup" finished-at="2023-01-03T16:35:38 IST" duration-ms="5946" status="PASS">
+    <test started-at="2023-01-05T16:30:37 IST" name="Default test" finished-at="2023-01-05T16:30:50 IST" duration-ms="12280">
+      <class name="SwagLabs_Tests.SwagLabs_PlacingOrder">
+        <test-method signature="Order()[pri:0, instance:SwagLabs_Tests.SwagLabs_PlacingOrder@76508ed1]" started-at="2023-01-05T16:30:37 IST" name="Order" finished-at="2023-01-05T16:30:50 IST" duration-ms="12219" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Login()[pri:0, instance:SwagLabs_Tests.SwagLabs_LoginTest@1d2adfbe]" started-at="2023-01-03T16:35:38 IST" name="Login" finished-at="2023-01-03T16:35:40 IST" duration-ms="1953" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:SwagLabs_Tests.SwagLabs_LoginTest@1d2adfbe]" started-at="2023-01-03T16:35:40 IST" name="Teardown" finished-at="2023-01-03T16:35:43 IST" duration-ms="3138" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-      </class> <!-- SwagLabs_Tests.SwagLabs_LoginTest -->
+        </test-method> <!-- Order -->
+      </class> <!-- SwagLabs_Tests.SwagLabs_PlacingOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
